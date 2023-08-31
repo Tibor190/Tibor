@@ -8,89 +8,95 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
     <title>Diseño Web</title> 
-    
+
 </head>
-      <body>
-           <nav class="navbar navbar-expand-sm  navbar-dark">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">Diseño Web</a>
-            <div class="float-end">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            </div>
-        </div>
-    </div>
-              
-        <div class="d-flex justify-content-end">
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-        <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="./pages/sobre mi.html">Sobre mi</a>   
-         </li>
-         <li class="nav-item">
-         <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
-         </li>
-         <li class="nav-item">
-        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-        </li>
-        </ul>
-        </div>
-        </div>
+<body>
+<!--Agregue un header que solo contiene la  barra de menu-->
+<header>
+       <nav class="navbar navbar-expand-sm  navbar-dark">
+       <div class="container-fluid">
+       <a class="navbar-brand" href="#">Diseño Web</a>
+       <div class="float-end">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+       <span class="navbar-toggler-icon"></span>
+       </button>
        </div>
-      </nav>
-          
-          <main>
-            <div class="container">
-               <h1><b>Hola!</b></h1>
-               <h2><b>Mi nombre es<br> Tibor</b></h2>
-               <h3><b>Soy diseñador Web</b></h3>
-               <img src="imagenes/tibor.jpg">
-            </div>
-         </main>
-        
-         
-        <div class="seccion">
-             <h1><b>Por que es tan importante<br>
-                    una buena página web?</b></h1>
-             <div class="lista">
-             <ul>
-            <li>Brinda visibilidad online</li>
-             <li>Es un genial complemento a las redes sociales</li>
-             <li>Es 100% tuyo y está siempre online</li>                       
-             <ul>
-             <img src="imagenes/pc.jpg">
-            </div>
-             </div>
-          
-        <div class="seccion2">
-             <h1><b>Dejanos tu mensaje</b></h1>
+       </div>
+       </div>
+       
+       <div class="d-flex justify-content-end">
+       <div class="collapse navbar-collapse" id="collapsibleNavbar">
+       <ul class="navbar-nav">
+       <li class="nav-item">
+       <a class="nav-link" href="index.html">Home</a>
+       </li>
+       <li class="nav-item">
+       <a class="nav-link" href="./pages/sobre mi.html">Sobre mi</a>   
+       </li>
+       <li class="nav-item">
+       <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
+       </li>
+       <li class="nav-item">
+       <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+       </li>
+       <li class="nav-item">
+       <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+       </li>
+       </ul>
+       </div>
+       </div>
+       </div>
+    </nav>
+</header>
+<!--Finaliza el header/menu--> 
+<!--Comienza el cuerpo de la pagina incial/index.-->
+<main>
+     <div class="container">
+     <h1><b>Hola!</b></h1>
+     <h2><b>Mi nombre es<br> Tibor</b></h2>
+     <h3><b>Soy diseñador Web</b></h3>
+     <img src="imagenes/tibor.jpg" alt="foto perfil">
+     </div>
+     </main>
 
-            <form>
-            <label for="msg"></label>
-            <textarea id="msg" name="user_message"></textarea>
-            <br><br>
-            <a href="#"><b>Enviar</b></a>
-            </form>
-            </div>
-           
-       <footer>
-             <p>Todos los derechos reservados por copyright</p>
-  
-      <div class="redes">
-      <a href=""><i class="fa-brands fa-facebook"></i></a>
-      <a href=""><i class="fa-brands fa-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-github"></i></a>
-      </div>
-      </footer>
+     <div class="seccion">
+     <h1><b>Por que es tan importante<br>
+     una buena página web?</b></h1>
+     <div class="lista">
+     <ul>
+     <li><b>Brinda visibilidad online</b></li>
+     <li><b>Es un genial complemento a las redes sociales</b></li>
+     <li><b>Es 100% tuyo y está siempre online</b></li>                       
+     <ul>
+     <img src="imagenes/pc.jpg" alt="pc">
+     </div>
+     </div>
 
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+     <div class="seccion2">
+     <h1><b>Dejanos tu mensaje</b></h1>
+     <form>
+     <label for="msg"></label>
+     <textarea id="msg" name="user_message"></textarea>
+     <br><br>
+     <a href="#"><b>Enviar</b></a>
+     </form>
+     </div>
+
+<!--Dividi el body en 3 secciones, los puse como divs porque me resulto mas facil para el responsive...-->
+
+<!--Inicio del footer-->
+<footer>
+       <p>Todos los derechos reservados por copyright</p>
+       
+       <div class="redes">
+       <a href=""><i class="fa-brands fa-facebook"></i></a>
+       <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+       <a href=""><i class="fa-brands fa-instagram"></i></a>
+       </div>
+       </footer>
+<!--Fin del body/index-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 
            
 </body>
