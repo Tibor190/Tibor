@@ -350,8 +350,10 @@ img {float: left;
 .nav-link {color: white !important;
            padding: 15px !important;
            background-color: black  !important;
-           width: 320px !important;
+           width:414px !important;
 }
+
+
 .container h1 h2 h3 img {display: flex;
 }
 main {width: 100%;
