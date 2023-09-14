@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/**Emprolijé la tabulación y agregue comentarios**/
+/**Emprolijé la tabulación agregue comentarios y trabaje en la paleta de colores**/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
   padding: 0;
@@ -65,7 +65,7 @@ img {
 }
 
 .seccion {
-  background-color: rgb(159, 158, 243);
+  background-color: rgb(132, 130, 255);
   margin-top: -120px;
   height: 500px;
 }
@@ -98,6 +98,29 @@ img {
   width: 350px;
   padding-right: 40px;
   margin-top: -300px;
+}
+
+.seccion1 {
+  height: 800px;
+  background-color: rgb(160, 157, 251);
+  margin-top: -140px;
+  margin-bottom: -50px;
+}
+
+.seccion1 h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 120px;
+  padding: 20px;
+}
+
+.lista2 {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .seccion2 {
@@ -138,6 +161,7 @@ img {
 .slider {
   width: 100%;
   overflow: hidden;
+  margin-bottom: -100px;
 }
 
 .slider ul {
@@ -288,8 +312,63 @@ footer p {
   padding: 20px;
 }
 
+.galeria {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 200px);
+}
+
+.item {
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
+}
+
+.item1 {
+  background-image: url(imagenes/foto.jpg);
+  /* grid-column: 1/2;
+  grid-row: 1/3; */
+}
+
+.item2 {
+  background-image: url(imagenes/foto2.jpg);
+  /* grid-column: 2/3;
+  grid-row: 1/2; */
+}
+
+.item3 {
+  background-image: url(imagenes/foto3.jpg);
+  /* grid-column: 3/5;
+  grid-row: 1/2; */
+}
+
+.item4 {
+  background-image: url(imagenes/foto4.jpg);
+  /* grid-column: 2/3;
+  grid-row: 2/4; */
+}
+
+.galeria .item:hover {
+  opacity: 70%;
+  transition: 1.5s;
+}
+
 .section-mia {
   height: auto;
+}
+
+.trabajos {
+  height: 400px;
+  background-color: rgb(188, 186, 249);
+  margin-bottom: -40px;
+}
+
+.trabajos p {
+  color: white;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 30px;
 }
 
 video {
@@ -442,8 +521,14 @@ video {
     width: 100%;
     height: 900px;
   }
+  .seccion1 {
+    height: 1200px;
+  }
   .sobremi h1 p {
     display: flex;
+  }
+  .trabajos {
+    height: 850px;
   }
   img {
     float: left;
