@@ -99,21 +99,24 @@ img {
   padding-right: 40px;
   margin-top: -300px;
 }
+
 .seccion1 {
   height: 800px;
   background-color: rgb(160, 157, 251);
   margin-top: -140px;
   margin-bottom: -50px;
 }
-.seccion1 h1 {color: white;
+
+.seccion1 h1 {
+  color: white;
   font-size: 40px;
   font-family: "Courier New", Courier, monospace;
   margin-top: 120px;
   padding: 20px;
-
 }
 
-.lista2 {text-decoration: none;
+.lista2 {
+  text-decoration: none;
   color: white;
   font-size: 25px;
   padding: 20px;
@@ -222,6 +225,7 @@ img {
 
 .detalle {
   display: flex;
+  height: 300px;
   background-color: rgb(158, 158, 255);
   margin-bottom: -40px;
 }
@@ -232,6 +236,47 @@ img {
   font-family: "Courier New", Courier, monospace;
   padding: 20px;
 }
+
+.galeria2 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 200px);
+}
+.item {
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
+}
+
+.item5 {
+  background-image: url(imagenes/foto5.jpg);
+  /* grid-column: 1/2;
+  grid-row: 1/3; */
+}
+
+.item6 {
+  background-image: url(imagenes/foto6.jpg);
+  /* grid-column: 2/3;
+  grid-row: 1/2; */
+}
+.item7 {
+  background-image: url(imagenes/foto7.jpg);
+  /* grid-column: 3/5;
+  grid-row: 1/2; */
+}
+
+.item8 {
+  background-image: url(imagenes/foto8.jpg);
+  /* grid-column: 2/3;
+  grid-row: 2/4; */
+}
+
+.galeria2 .item:hover {
+  opacity: 70%;
+  transition: 1.5s;
+}
+
 
 .contacto .formulario form {
   margin-top: 30px;
@@ -308,58 +353,78 @@ footer p {
   font-family: "Courier New", Courier, monospace;
   padding: 20px;
 }
-.galeria{
+
+.galeria {
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(2, 1fr) ;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 200px);
 }
-.item{
+
+.item {
   border: 2px solid white;
   background-size: cover;
   background-position: center;
 }
-.item1{
+
+.item1 {
   background-image: url(imagenes/foto.jpg);
   /* grid-column: 1/2;
   grid-row: 1/3; */
 }
 
-.item2{
+.item2 {
   background-image: url(imagenes/foto2.jpg);
   /* grid-column: 2/3;
   grid-row: 1/2; */
 }
-.item3{
+
+.item3 {
   background-image: url(imagenes/foto3.jpg);
   /* grid-column: 3/5;
   grid-row: 1/2; */
 }
 
-.item4{
+.item4 {
   background-image: url(imagenes/foto4.jpg);
   /* grid-column: 2/3;
   grid-row: 2/4; */
 }
-.galeria .item:hover {opacity:70%; transition: 1.5s;
-}
 
+.galeria .item:hover {
+  opacity: 70%;
+  transition: 1.5s;
+}
 
 .section-mia {
   height: auto;
 }
+
 .trabajos {
-  height: 400px;
-  background-color: rgb(188, 186, 249);
+  height: 350px;
+  background-color: rgb(160, 157, 255);
   margin-bottom: -40px;
 }
-.trabajos p {color: white;
-font-size: 30px;
-font-family: 'Courier New', Courier, monospace;
-padding-left: 30px;
 
+.trabajos p {
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 30px;
 }
 
+.tiempos {
+  height: 400px;
+  background-color: rgb(145, 137, 255);
+  margin-top: -120px;
+  margin-bottom: -80px;
+}
+.tiempos p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 30px;
+}
 video {
   width: 100%;
   height: auto;
@@ -510,13 +575,21 @@ video {
     width: 100%;
     height: 900px;
   }
-  .seccion1 {height: 1200px;
+  .seccion1 {
+    height: 1200px;
   }
   .sobremi h1 p {
     display: flex;
   }
-  .trabajos {height: 850px;}
- 
+  .trabajos {
+    height: 500px;
+  }
+  .tiempos {
+    height: 600px;
+  }
+  .detalle {
+    height: 500px;
+  }
   img {
     float: left;
     width: 260px;
@@ -551,4 +624,4 @@ video {
   footer {
     height: 110px;
   }
-}
+}/*# sourceMappingURL=estilo.css.map */
